@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+header{
+	position: fixed;
+	z-index: 2;
+	top:0;
+	background-color:rgb(121, 224, 234);
+	height: 25%;
+	width: 100%;
+}
+h1{
+	font-size: 70;
+}
+ul{
+	padding:0;
+	list-style: none;
+}
+ul.navbar{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	display:flex;
+	justify-content: space-around;
+	padding-top: 3%;
+}
+a {
+   text-decoration: none;
+   color:rgba(0,0,0,1);
+}
+
+p{
+	margin:10%;
+}
+.questions{
+	margin-top:20%;
+}
+.answer{
+	background-color: rgba(19, 86, 92,0.3);
+}

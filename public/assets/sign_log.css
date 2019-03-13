@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	height: 100vh;
+	color:white;
+	overflow: scroll;
+	font-family: 'Lobster', cursive, sans-serif;
+   
+}
+
+h1{
+	text-align: center;
+	font-size: 8vh;
+	padding-top: 15%;
+}
+#can{
+	z-index: -1;
+	color:white;
+	position:absolute;
+	height: 100%;
+	width:100%;
+}
+
+form{
+	text-align: center;
+	width: 50%;
+	padding-left: 25%;
+}
+.elem{
+	width: 80%;
+	padding: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background: transparent;
+	color: white;
+	border-radius: 8px;
+	border: groove;
+	border-color: white ;
+	
+	
+
+}
+.btn{
+	margin-top: 5%;
+	padding: 1%;
+	border-radius: 7px;
+
+}
+.btn:hover{
+	background-color: rgba(152, 182, 184, 1);
+}

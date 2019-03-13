@@ -1,0 +1,33 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="assets/sign_log.css"> 
+
+
+<title>{{ title }}</title>
+
+</head>
+<body>
+
+<canvas id="can">
+		<script type="text/javascript" src="assets/canvas.js"></script>
+</canvas>
+
+<h1>{{ title }}</h1>
+<br>
+<form action="/signup" method="POST">
+<input type="text" name="name" placeholder="Name" required class="elem">
+<br>
+<input type="text" name="username" placeholder="UserName" required class="elem">
+<br>
+<input type="email" name="email" placeholder="Email" required class="elem">
+<br>
+<input type="password" name="password" placeholder="Password" required class="elem">
+<br>
+
+<input type="submit" value="submit" class="btn">
+</form>
+<br>
+{{ error }}
+</body>
+</html>

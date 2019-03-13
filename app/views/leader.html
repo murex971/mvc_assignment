@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="assets/leaderboard.css">
+</head>
+<body>
+	<h1>{{title}}</h1>
+	<div>
+<table>
+	{% for users in leaderboard %}
+	<tr>
+		<td>{{users.username}}</td>
+		<td>{{users.score}}</td>
+	</tr>
+	{% endfor %}
+</table>
+</div>
+
+</body>
+</html>

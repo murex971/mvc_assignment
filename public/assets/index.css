@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	height: 100vh;
+	color:white;
+	overflow: scroll;
+	font-family: 'Lobster', cursive, sans-serif;
+   
+}
+
+h1{
+	text-align: center;
+	font-size: 8vh;
+	padding-top: 15%;
+}
+
+
+.btn_{
+	margin-top: 15%; 
+	text-align: center;
+	width:100%;
+}
+.btn_1{
+	padding:1%;
+	text-decoration: none;
+	margin:8%;
+	background-color: rgb(169, 191, 193);
+	
+}
+.btn_1:hover{
+	background-color: #AAA4BF;
+}
+#can{
+	z-index: -1;
+	color:white;
+	position:absolute;
+	height: 100%;
+	width:100%;
+}
