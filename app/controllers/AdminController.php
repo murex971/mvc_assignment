@@ -1,7 +1,7 @@
 <?php
     namespace Controllers;
     use Models\Admin;
-    include utils.php;
+    
     class AdminController
     {
         protected $twig ;
@@ -29,6 +29,7 @@
             }
         }
         public function post(){
+
 
             $question=$_POST['question'];
             $question = filter($question);

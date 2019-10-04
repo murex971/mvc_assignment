@@ -4,11 +4,11 @@
 	border:0;
 }
 body{
-	height: 100vh;
+	height:100%;
 	color:white;
 	overflow: scroll;
 	font-family: 'Lobster', cursive, sans-serif;
-   
+   box-sizing: border-box;
 }
 
 h1{
@@ -19,14 +19,14 @@ h1{
 
 
 .btn_{
-	margin-top: 15%; 
+	margin-top: 8%; 
 	text-align: center;
 	width:100%;
 }
 .btn_1{
 	padding:1%;
 	text-decoration: none;
-	margin:8%;
+	margin:6%;
 	background-color: rgb(169, 191, 193);
 	
 }
