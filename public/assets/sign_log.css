@@ -7,14 +7,13 @@ body{
 	height: 100vh;
 	color:white;
 	overflow: scroll;
-	font-family: 'Lobster', cursive, sans-serif;
-   
+	font-family: 'Lobster', cursive, sans-serif; 
 }
 
 h1{
 	text-align: center;
 	font-size: 8vh;
-	padding-top: 15%;
+	padding-top: 5%;
 }
 #can{
 	z-index: -1;
@@ -39,15 +38,11 @@ form{
 	border-radius: 8px;
 	border: groove;
 	border-color: white ;
-	
-	
-
 }
 .btn{
 	margin-top: 5%;
 	padding: 1%;
 	border-radius: 7px;
-
 }
 .btn:hover{
 	background-color: rgba(152, 182, 184, 1);
